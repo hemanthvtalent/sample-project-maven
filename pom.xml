@@ -60,6 +60,15 @@
                 <configuration>
                     <mainClass>org.web3j.sample.Application</mainClass>
                 </configuration>
+               </plugin>      
+            <plugin>
+                  <groupId>org.apache.maven.plugins</groupId>
+                  <artifactId>maven-compiler-plugin</artifactId>
+                  <version>3.9.0</version>
+                  <configuration>
+                  <mainClass>org.web3j.sample.Application</mainClass>
+                  </configuration>
+               
             </plugin>
                  <plugin>
                   <artifactId>maven-war-plugin</artifactId>
